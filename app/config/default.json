@@ -1,0 +1,11 @@
+{
+    "SystemConfig": {
+        "baseUrl" : "https://services-qa.ucdp.net"
+    },
+    "guestConfig" : {
+        "path" : "/guest/guestProfiles/createUnregistered"
+    },
+    "authConfig" : {
+        "path" : "/guest/guestProfiles/commerce/authN"
+    }
+}
