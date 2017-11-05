@@ -2,11 +2,6 @@ const config = require("config");
 const fetch = require("node-fetch");
 
 
-
-
-
-
-// async function
 async function send () {
   var tickets = createCall()
   console.log(tickets.url)
@@ -15,7 +10,6 @@ async function send () {
 
   let json = await ticketsCall.json();
   
-  //let ticketsJson = await json.result
   console.log(json);
   return json
 }
@@ -23,7 +17,6 @@ async function send () {
 
 
 function createCall() {
-  // always initialize all instance properties
   var path = config.get("ticketsConfig.path")
   var server = config.get('SystemConfig.baseUrl')
   this.url =  server+path

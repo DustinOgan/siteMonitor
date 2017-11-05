@@ -6,8 +6,6 @@ var unregstieredGuest = require('../models/UnregisteredGuestCall.js');
 var authnPath = config.get("authConfig.path")
 var server = config.get('SystemConfig.baseUrl')
 
-
-// async function
 async function send () {
   var myGuest = unregstieredGuest.createCall()
   console.log(myGuest.url)
