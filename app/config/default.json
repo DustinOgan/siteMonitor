@@ -7,5 +7,8 @@
     },
     "authConfig" : {
         "path" : "/guest/guestProfiles/commerce/authN"
+    },
+    "ticketsConfig": {
+        "path" : "/cp/personalization/gettickets"
     }
 }
