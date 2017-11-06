@@ -1,9 +1,9 @@
 {
     "monitorConfig": {
-        "baseUrl" : "https://services-qa.ucdp.net",
-        "unreg" : "/guest/guestProfiles/createUnregistered",
-        "authN" : "/guest/guestProfiles/commerce/authN",
-        "getTick" : "/cp/personalization/gettickets", 
-        "webSourceId" : "1000002"
+        "baseUrl": "https://services-qa.ucdp.net",
+        "unreg": "/guest/guestProfiles/createUnregistered",
+        "authN": "/guest/guestProfiles/commerce/authN",
+        "getTick": "/cp/personalization/gettickets",
+        "webSourceId": "1000002"
     }
 }
